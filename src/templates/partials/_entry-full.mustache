@@ -1,0 +1,21 @@
+<div class="entry">
+    <div class="u-textCenter gr-8 push-2 gr-10@t push-1@t gr-12@m push-0@m">
+        <h2>
+            {{ title }}
+        </h2>
+    </div>
+    {{#images}}
+        <div class="gr-6 gr-12@t gr-12@m">
+            <img class="entry-image" src="{{ src }}" alt="{{ alt }}">
+        </div>
+    {{/images}}
+
+    <div class="gr-4@large gr-5 gr-8@t push-2@t gr-10@m push-1@m">
+        <p>
+            {{ text }}
+        </p>
+        {{#client}}
+            {{> partials/client }}
+        {{/client}}
+    </div>
+</div>

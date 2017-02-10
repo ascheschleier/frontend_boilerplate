@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+.idea
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+public
+src/js/vendors/*
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+*.DS_Store
+
+syntax: regexp
+^.idea

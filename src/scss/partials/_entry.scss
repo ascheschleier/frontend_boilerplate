@@ -1,0 +1,32 @@
+.entry {
+
+    &-small {
+        //width and clear for different Breakpoints
+        @include gridle_state(d){
+            @include gridle_grid(3);
+            &:nth-child(4n) {
+                @include clearfix();
+            }
+        }
+
+        @include gridle_state(large) {
+            @include gridle_grid(2);
+            &:nth-child(6) {
+                @include clearfix();
+            }
+        }
+
+        @include gridle_state(t) {
+            @include gridle_grid(4);
+            &:nth-child(3) {
+                @include clearfix();
+            }
+        }
+        @include gridle_state(m) {
+            @include gridle_grid(6);
+            &:nth-child(2) {
+                @include clearfix();
+            }
+        }
+    }
+}

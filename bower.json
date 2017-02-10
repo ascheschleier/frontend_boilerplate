@@ -1,0 +1,27 @@
+{
+  "name": "website_boilerplate",
+  "authors": [
+    "David Ziegler"
+  ],
+  "description": "stuff is there to start",
+  "license": "-",
+  "homepage": "-",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "gsap": "^1.19.0",
+    "gridle": "^2.0.48",
+    "requirejs": "requirejs-bower#^2.3.2"
+  },
+  "ignore": [
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ]
+}

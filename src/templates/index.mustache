@@ -1,0 +1,16 @@
+{{> meta/head }}
+
+{{> partials/header }}
+{{> partials/hero }}
+
+<section class="content">
+    <div class="container">
+        {{#item}}
+            {{> partials/entry-small }}
+        {{/item}}
+    </div>
+</section>
+
+{{> partials/footer }}
+
+{{> meta/footer }}

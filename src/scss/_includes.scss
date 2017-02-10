@@ -1,0 +1,14 @@
+//vendors:
+@import "vendors/grid";
+@import "vendors/normalize/normlaize";
+
+//support
+@import "mixins/mixins";
+@import "variables/variables";
+@import "utilitys/utilitys";
+@import "fonts/fonts";
+@import "typography/typo";
+@import "icons/icons";
+
+@import "partials/partials";
+@import "pages/index";

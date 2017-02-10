@@ -1,0 +1,340 @@
+{
+    "item" : [
+        {
+            "title" : "Headline",
+            "slug" : "slug",
+            "tags" : [
+                {
+                    "tag" : "Frontend",
+                    "tag" : "Backend",
+                    "tag" : "Canvas"
+                }
+            ],
+            "short" : "Short text Lorem Ipsum (max. Char is XY)",
+            "text" : "Lorem Ipsum Content text to view in the Body. Shizzl Lorepssizzle ma amed Dolor Prerequizzl. Lorem Ipsum Content text to view in the Body. Shizzl Lorepssizzle ma amed Dolor Prerequizzl. Lorem Ipsum Content text to view in the Body. Shizzl Lorepssizzle ma amed Dolor Prerequizzl. Lorem Ipsum Content text to view in the Body. Shizzl Lorepssizzle ma amed Dolor Prerequizzl. Jo man. Tell it to Leprazizzle dipusum Liggati dizzle fo bilinguissl Lorem Ipsum Content text to view in the Body. Shizzl Lorepssizzle ma amed Dolor Prerequizzl.",
+            "client" : {
+                "name" : "Company 1",
+                "logo" : "http://placeimg.com/100/100/logos",
+                "link" : "#",
+                "text" : "Comissiond by"
+            },
+            "date" : "",
+            "year" : "",
+            "link" : "/item-detail.html",
+            "ext-link": "",
+            "preview" :
+                {
+                    "src" : "http://placeimg.com/400/300/places",
+                    "alt" : "Thumb alt tag"
+                },
+            "images" : [
+                {
+                    "src" : "http://placeimg.com/800/600/tech",
+                    "alt" : "alt tag"
+                },
+                {
+                    "src" : "http://placeimg.com/800/600/tech",
+                    "alt" : "alt tag"
+                },
+                {
+                    "src" : "http://placeimg.com/800/600/tech",
+                    "alt" : "alt tag"
+                }
+            ]
+        },
+        {
+            "title": "Die Flaschen",
+            "slug": "die-flaschen",
+            "tags" : [
+                {
+                    "tag" : "Frontend",
+                    "tag" : "Backend",
+                    "tag" : "Animation"
+                }
+            ],
+            "short": "Website + HTML Configurator",
+            "text": "dieflaschen.de is a young and reliable bottle company that produces and prints your bottle in Germany. Fixed prices and deliveries within the agreed time are guaranteed. You may clean your bottle in your dish washer, all bottles are odourless and flavourless. Customize your own bottle and use it when you go hiking, biking or go to the gym. Choose your own design for your plastic bottle, sports bottle, event bottle, art bottle. We wish a lot of fun!",
+            "client" : {
+                "name" : "Wessinger und Peng",
+                "logo" : "http://www.wessingerundpeng.com/assets/favicon/apple-touch-icon-76x76.png",
+                "link" : "http://www.wessingerundpeng.com/",
+                "text" : "Design by"
+            },
+            "date": "2017-02-03T19:01:13.411Z",
+            "year": "2017",
+            "link": "/item-detail.html",
+            "ext-link": "http://dieflaschen.de/en/",
+            "preview": {
+                "src": "img/content-dieflaschen-thumb.png",
+                "alt": "Frontend - Die Flaschen"
+            },
+            "images": [
+                {
+                    "src": "img/content-dieflaschen-img-1.png",
+                    "alt": "alt tag"
+                },
+                {
+                    "src": "http://placeimg.com/800/600/tech",
+                    "alt": "alt tag"
+                },
+                {
+                    "src": "http://placeimg.com/800/600/tech",
+                    "alt": "alt tag"
+                }
+            ]
+        },
+        {
+            "title": "Martion",
+            "slug": "martion",
+            "tags" : [
+                {
+                    "tag" : "Frontend",
+                    "tag" : "Backend",
+                    "tag" : "Design",
+                    "tag" : "Wordpress",
+                    "tag" : "i18n"
+                }
+            ],
+            "short": "Website relaunch of traditional speaker manufacrurer Martion",
+            "text": "Thoughtfull design and attention to the detail makes the handcrafted pieces of matrion unique.",
+            "client" : {
+                "name" : "Goleon",
+                "logo" : "",
+                "link" : "",
+                "text" : ""
+            },
+            "date": "2012-01-03T19:01:13.411Z",
+            "year": "2012",
+            "link": "/item-detail.html",
+            "ext-link": "http://martion.de/en",
+            "preview": {
+                "src": "img/content-martion-thumb.png",
+                "alt": "Full Service Relaunch Martion"
+            },
+            "images": [
+                {
+                    "src": "img/content-martion-img-1.png",
+                    "alt": "Website"
+                },
+                {
+                    "src": "http://placeimg.com/800/600/tech",
+                    "alt": "alt tag"
+                },
+                {
+                    "src": "http://placeimg.com/800/600/tech",
+                    "alt": "alt tag"
+                }
+            ]
+        },
+        {
+            "title": "",
+            "slug": "",
+            "tags" : [
+                {
+                    "tag" : "",
+                    "tag" : "",
+                    "tag" : ""
+                }
+            ],
+            "short": "",
+            "text": "",
+            "client" : {
+                "name" : "",
+                "logo" : "",
+                "link" : "",
+                "text" : ""
+            },
+            "date": "",
+            "year": "",
+            "link": "",
+            "preview": {
+                "src": "",
+                "alt": ""
+            },
+            "images": [
+                {
+                    "src": "http://placeimg.com/800/600/tech",
+                    "alt": "alt tag"
+                },
+                {
+                    "src": "http://placeimg.com/800/600/tech",
+                    "alt": "alt tag"
+                },
+                {
+                    "src": "http://placeimg.com/800/600/tech",
+                    "alt": "alt tag"
+                }
+            ]
+        }
+    ],
+    "name": "application-name",
+    "version": "0.0.1",
+
+    "key": "value",
+    "key2": "use this for variables you want to load globally",
+    "title": "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
+    "img": {
+        "avatar": {
+            "src": "http://placeimg.com/100/100/people",
+            "alt": "Avatar"
+        },
+        "square": {
+            "src": "http://placeimg.com/300/300/nature",
+            "alt": "Square"
+        },
+        "rectangle": {
+            "src": "http://placeimg.com/400/300/tech",
+            "alt": "Rectangle"
+        },
+        "landscape-4x3": {
+            "src": "http://placeimg.com/400/300/tech",
+            "alt": "4x3 Image"
+        },
+        "landscape-16x9": {
+            "src": "http://placeimg.com/640/360/tech",
+            "alt": "16x9 Image"
+        }
+    },
+    "headline": {
+        "short": "Lorizzle pimpin' dolizzle sit amet I",
+        "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
+    },
+    "excerpt": {
+        "short": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
+        "medium": "Izzle crazy tempizzle sizzle. We gonna chung gangsta get down get down fo shizzle turpizzle. Away break it down black. Pellentesque bling bling rhoncus fo shizzle. In hac the bizzle platea dictumst. Black dapibizzle. Crackalackin.",
+        "long": "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
+    },
+    "description": "Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.",
+    "url": "http://lorizzle.nl/",
+    "name": {
+        "first": "Junius",
+        "firsti": "J",
+        "middle": "Marius",
+        "middlei": "M",
+        "last": "Koolen",
+        "lasti": "K"
+    },
+    "year": {
+        "long": "2013",
+        "short": "13"
+    },
+    "month": {
+        "long": "January",
+        "short": "Jan",
+        "digit": "01"
+    },
+    "dayofweek": {
+        "long": "Sunday",
+        "short": "Sun"
+    },
+    "day": {
+        "long": "01",
+        "short": "1",
+        "ordinal": "st"
+    },
+    "hour": {
+        "long": "06",
+        "short": "6",
+        "military": "06",
+        "ampm": "am"
+    },
+    "minute": {
+        "long": "20",
+        "short": "20"
+    },
+    "seconds": "31",
+    "nav": {
+        "level1": [
+            {
+                "text": "Label",
+                "category": "cat1",
+                "link": "/#/"
+            }
+        ],
+        "level2": [
+            {
+                "category": {
+                    "name": "cat1",
+                    "entry": [
+                        {
+                            "text": "Subcat 1",
+                            "opencategory": "sub1",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Subcat 2",
+                            "opencategory": "sub2",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Subcat 3",
+                            "opencategory": "sub4",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Subcat 4",
+                            "opencategory": "sub4",
+                            "link": "/#/"
+                        }
+                    ]
+                }
+            }
+        ],
+        "level3": [
+            {
+                "category": {
+                    "name": "sub1",
+                    "entrys": [
+                        {
+                            "text": "Entry 1 sub1",
+                            "image": "dummy1.jpg",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Entry 2 sub1",
+                            "image": "dummy2.jpg",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Entry 3 sub1",
+                            "image": "dummy3.jpg",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Entry 4 sub1",
+                            "image": "dummy4.jpg",
+                            "link": "/#/"
+                        }
+                    ]
+                }
+            },
+            {
+                "category": {
+                    "name": "sub2",
+                    "entrys": [
+                        {
+                            "text": "Entry 1 sub2",
+                            "image": "dummy1.jpg",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Entry 2 sub2",
+                            "image": "dummy2.jpg",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Entry 3 sub2",
+                            "image": "dummy3.jpg",
+                            "link": "/#/"
+                        },
+                        {
+                            "text": "Entry 4 sub2",
+                            "image": "dummy4.jpg",
+                            "link": "/#/"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
