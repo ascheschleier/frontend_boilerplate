@@ -11,25 +11,25 @@
  - Mustache Templating
  - GSAP Animation Suite
  
- ##installation
+##Installation
  
- ```bash
- $ npm install 
- ```       
+```bash
+    $ npm install 
+```       
  
- ##grunt tasks
+##Grunt tasks
  
 Basic watch task for all the build processes:
  
 ```bash
-      $ grunt 
+    $ grunt 
 ```   
   
   
   Compile Mustache Templates into Html:
   
 ```bash
-   $ grunt buildHtml 
+    $ grunt buildHtml 
 ```   
 Build Icons out of SVGs in `/src/icons`:
    
