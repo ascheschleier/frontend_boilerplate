@@ -6,6 +6,7 @@ require.config({
         tweenlite:  'vendors/gsap/src/uncompressed/TweenLite',
         timelinelite:  'vendors/gsap/src/uncompressed/TimelineLite',
         timelinemax:  'vendors/gsap/src/uncompressed/TimelineMax',
+        whitestorm:  'vendors/whitestorm/whitestorm',
     },
     config: {
 

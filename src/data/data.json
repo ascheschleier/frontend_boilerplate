@@ -244,11 +244,27 @@
     },
     "seconds": "31",
     "nav": {
+        "label" : "Menu",
         "level1": [
             {
-                "text": "Label",
-                "category": "cat1",
-                "link": "/#/"
+                "text": "Home",
+                "category": "home",
+                "link": "/"
+            },
+            {
+                "text": "Works",
+                "category": "works",
+                "link": "/works.html"
+            },
+            {
+                "text": "About",
+                "category": "about",
+                "link": "/about"
+            },
+            {
+                "text": "Contact",
+                "category": "contact",
+                "link": "/contact"
             }
         ],
         "level2": [
@@ -274,62 +290,6 @@
                         {
                             "text": "Subcat 4",
                             "opencategory": "sub4",
-                            "link": "/#/"
-                        }
-                    ]
-                }
-            }
-        ],
-        "level3": [
-            {
-                "category": {
-                    "name": "sub1",
-                    "entrys": [
-                        {
-                            "text": "Entry 1 sub1",
-                            "image": "dummy1.jpg",
-                            "link": "/#/"
-                        },
-                        {
-                            "text": "Entry 2 sub1",
-                            "image": "dummy2.jpg",
-                            "link": "/#/"
-                        },
-                        {
-                            "text": "Entry 3 sub1",
-                            "image": "dummy3.jpg",
-                            "link": "/#/"
-                        },
-                        {
-                            "text": "Entry 4 sub1",
-                            "image": "dummy4.jpg",
-                            "link": "/#/"
-                        }
-                    ]
-                }
-            },
-            {
-                "category": {
-                    "name": "sub2",
-                    "entrys": [
-                        {
-                            "text": "Entry 1 sub2",
-                            "image": "dummy1.jpg",
-                            "link": "/#/"
-                        },
-                        {
-                            "text": "Entry 2 sub2",
-                            "image": "dummy2.jpg",
-                            "link": "/#/"
-                        },
-                        {
-                            "text": "Entry 3 sub2",
-                            "image": "dummy3.jpg",
-                            "link": "/#/"
-                        },
-                        {
-                            "text": "Entry 4 sub2",
-                            "image": "dummy4.jpg",
                             "link": "/#/"
                         }
                     ]

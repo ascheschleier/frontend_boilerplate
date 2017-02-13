@@ -1,0 +1,20 @@
+<section id="nav" class="nav">
+    <div class="nav-button">
+        <div class="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-label">
+            {{ nav.label }}
+        </div>
+    </div>
+
+    <div class="nav-layer">
+        <ul class="nav-first">
+            {{#nav.level1}}
+                {{> partials/nav/nav-first }}
+            {{/nav.level1}}
+        </ul>
+    </div>
+</section>

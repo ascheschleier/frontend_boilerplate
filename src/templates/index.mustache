@@ -1,15 +1,15 @@
 {{> meta/head }}
 
-{{> partials/nav }}
+{{> partials/nav/nav }}
 
-{{> partials/header }}
-{{> partials/hero }}
+{{! > partials/canvas }}
 
 <section class="content">
     <div class="container">
-        {{#item}}
-            {{> partials/entry-small }}
-        {{/item}}
+        <div class="home-wrapper">
+            {{> partials/hero }}
+            {{> partials/home-icons }}
+        </div>
     </div>
 </section>
 

@@ -35,7 +35,7 @@ define(['jquery'], function ($) {
             if (transitionEvent) { //we have the CSS transition feature
                 $element.one(transitionEvent, function (e) {
                     // this is your completion event!
-                    //console.log("transition complete");
+                    console.log("transition complete");
                     if (callback && typeof callback == 'function') {
                         //console.log("executing callback function ");
                         callback();

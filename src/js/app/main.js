@@ -9,6 +9,13 @@ define(['jquery'], function ($) {
                 sameHeight.init();
             });
 
+            require(['app/nav'], function (nav) {
+                nav.init();
+            });
+
+            require(['app/animation'], function (animation) {
+                animation.init();
+            });
         });
 
     };

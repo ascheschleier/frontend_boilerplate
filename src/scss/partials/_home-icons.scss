@@ -1,0 +1,42 @@
+.home {
+
+    &-wrapper {
+        position: relative;
+        height: 80vh;
+        margin: 0vh 0 10vh;
+    }
+
+    &-icons {
+        position: absolute;
+        /* margin-bottom: 0; */
+        bottom: 0;
+        width: 100%;
+        @include clearfix();
+
+        &-item {
+            @include gridle(4);
+            text-align: center;
+
+            /*
+            @include gridle_state(large){
+                @include gridle(3);
+
+            };
+            @include gridle_state(d){
+
+            };
+            */
+
+            I {
+                display: inline-block;
+                width: 10vw;
+                height: 10vw;
+
+                svg {
+                    width: 10vw;
+                    height: 10vw;
+                }
+            }
+        }
+    }
+}

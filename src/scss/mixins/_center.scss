@@ -1,0 +1,16 @@
+%centerParent {
+    text-align: center;
+    font-size: 0;
+    &:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+
+%centerChild {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+}

@@ -16,7 +16,7 @@ module.exports = function(grunt) {
                 tasks: ['buildIcons']
             },
             js : {
-                files: ['<%= pkg.src %>/js/*.js'],
+                files: ['<%= pkg.src %>/js/**/*.js'],
                 tasks: ['buildJs']
             },
             html: {
@@ -37,6 +37,7 @@ module.exports = function(grunt) {
                         tweenlite:  'vendors/gsap/src/uncompressed/TweenLite',
                         timelinelite:  'vendors/gsap/src/uncompressed/TimelineLite',
                         timelinemax:  'vendors/gsap/src/uncompressed/TimelineMax',
+                        whitestorm:  'vendors/whitestorm/whitestorm',
                     },
                     name: "app",
                     dir: "<%= pkg.dist %>/js/",

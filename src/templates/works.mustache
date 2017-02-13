@@ -2,13 +2,13 @@
 
 {{> partials/nav/nav }}
 
-{{> partials/canvas }}
+{{> partials/hero }}
 
 <section class="content">
-    <div class="container">
-        {{#item.1 }}
-            {{> partials/entry-full }}
-        {{/item.1 }}
+    <div class="container u-relPos">
+        {{#item}}
+            {{> partials/entry-small }}
+        {{/item}}
     </div>
 </section>
 
