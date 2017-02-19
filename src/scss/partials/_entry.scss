@@ -1,31 +1,136 @@
 .entry {
 
+    .client {
+        position: absolute;
+        right: 15px;
+        bottom: 0px;
+        opacity: .7;
+        transition: opacity $animSpeed-slow ease;
+
+        &-link {
+            display: none;
+        }
+
+        &-logo {
+            max-width: 50px;
+        }
+
+        &:hover {
+            &-link {
+                display: block;
+            }
+
+            &-logo {
+                opacity: 1;
+            }
+        }
+    }
+
     &-small {
+        position: relative;
+
+        A {
+            display: block;
+            padding: 1em;
+            background-color: $color-white;
+            text-decoration: none;
+            color: $color-black;
+            box-shadow:2px 4px 28px 1px rgba(0,0,0,0.36);
+            border-radius: 5px;
+        }
+
+        &-img {
+            border-radius: 5px;
+            position: relative;
+
+                IMG {
+                    width: 100%;
+                    display: block;
+                    border-radius: 5px;
+                    //box-shadow: inset -1px -1px 2px 1px rgba(0,0,0,0.25),  inset 1px 1px 2px 1px rgba(255,255,255,1);
+                }
+
+            &:after {
+                content: " ";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                box-shadow: inset -1px 0px 2px 1px rgba(0,0,0,0.2), inset 0px 0px 2px 1px rgba(255,255,255,.5);
+                border-radius: 5px;
+            }
+        }
+
+        &-content {
+            //position: absolute;
+            padding: 20px;
+            left:0;
+            bottom: 0;
+
+            H4 {
+                padding: 0;
+                margin: 0;
+            }
+
+            P {
+                display: none;
+            }
+        }
+
         //width and clear for different Breakpoints
         @include gridle_state(d){
-            @include gridle_grid(3);
+            @include gridle_grid(4);
             &:nth-child(4n) {
                 @include clearfix();
             }
         }
 
         @include gridle_state(large) {
-            @include gridle_grid(2);
+            @include gridle_grid(3);
             &:nth-child(6) {
                 @include clearfix();
             }
         }
 
         @include gridle_state(t) {
-            @include gridle_grid(4);
+            @include gridle_grid(6);
             &:nth-child(3) {
                 @include clearfix();
             }
         }
         @include gridle_state(m) {
-            @include gridle_grid(6);
+            @include gridle_grid(12);
             &:nth-child(2) {
                 @include clearfix();
+            }
+        }
+
+
+        .client {
+            position: absolute;
+            right: 15px;
+            margin-right: 1em;
+            bottom: 0px;
+            opacity: .7;
+            transition: opacity $animSpeed-slow ease;
+
+            &-link {
+                display: none;
+            }
+
+            &-logo {
+                max-width: 50px;
+            }
+
+            &:hover {
+                .client-link {
+                    display: block;
+                }
+
+                .client-logo {
+                    opacity: 1;
+                }
             }
         }
     }

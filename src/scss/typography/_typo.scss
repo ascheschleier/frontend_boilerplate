@@ -14,3 +14,20 @@ h1 {
 h2 {
     font-size: 4em;
 }
+
+A {
+    text-decoration: none;
+    color: $color-main;
+    background-color: transparent;
+    display: inline-block;
+    transition: color $animSpeed-fast ease, background$animSpeed-fast ease;
+
+    &:visited {
+        color: $color-main;
+    }
+
+    &:hover {
+        color: $color-black;
+        background-color: $color-main;
+    }
+}
