@@ -1,6 +1,6 @@
 # frontend_boilerplate
 
-###to make the Start a little easier.
+### to make the Start a little easier.
 
              
  This Package comes with nice features pre configures, like:
@@ -11,13 +11,21 @@
  - Mustache Templating
  - GSAP Animation Suite
  
-##Installation
+## Prerequisites
+
+you need to have Grunt CLI installed
+
+```
+  npm install -g grunt-cli
+```
+ 
+## Installation
  
 ```bash
     $ npm install 
 ```       
  
-##Grunt tasks
+## Grunt tasks
  
 Basic watch task for all the build processes:
  
